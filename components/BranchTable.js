@@ -10,8 +10,8 @@ export default function BranchTable({ branches, leads }) {
           <Link key={b.id} href={`/branch/${b.id}`}>
             <div className="bg-white p-4 rounded-xl shadow hover:shadow-lg transition cursor-pointer">
 
-              <h3 className="font-bold text-lg">{b.name}</h3>
-              <p className="text-gray-500">{b.city}</p>
+              <h3 className="text-gray-800 font-semibold text-lg">{b.name}</h3>
+              <p className="text-gray-600 text-sm">{b.city}</p>
 
               <p className="mt-2 text-blue-600 font-semibold">
                 {count} Leads →
