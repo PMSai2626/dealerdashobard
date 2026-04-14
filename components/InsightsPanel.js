@@ -33,7 +33,7 @@ export default function InsightsPanel({ insights }) {
 
   return (
     <div className="bg-white p-5 rounded-2xl shadow">
-      <h2 className="text-lg font-semibold mb-4">
+      <h2 className="text-lg text-gray-800 font-semibold mb-4">
         💡 CEO Insights
       </h2>
 
