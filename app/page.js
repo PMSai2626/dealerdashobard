@@ -19,7 +19,7 @@ export default function Dashboard() {
   const insights = getDashboardInsights(leads, branches);
 
   return (
-    <div className="min-h-screen bg-gray-100 p-6">
+    <div className="min-h-screen bg-gray-100 text-gray-900 p-6">
       <div className="max-w-7xl mx-auto space-y-6">
 
         {/* 🔥 HEADER */}
